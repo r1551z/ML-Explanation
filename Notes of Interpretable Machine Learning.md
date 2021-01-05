@@ -111,6 +111,50 @@ that change also drastically changes the prediction.
 High stability is always desirable.
 
 
+Comprehensibility:
+how well humans can understand the explanation.
+
+Certaianty:
+How well it reflects the (un)certainty of ml models.
+
+Degree of importance
+
+Novelty:on newly differntly distributed dataset;
+It is related with certainty.
+
+Representativeness:
+does it represent the entire model or a single prediction?
+
+## Human friendly interpretation
+
+contrastive: why the prediction is A not B? It requires 
+compare the prediction with the prediction of another instance.
+
+selected: focus on the 2 or 3 features that makes the difference.
+A good example is the LIME method.
+
+
+social: interactions. 
+
+focus on abnormal:  These are causes that had a small probability 
+but nevertheless happened.It means an abnormal feature should be 
+included in the explanation even if a normal feature has same
+influence on the prediction. 
+
+Truthful: “So if we say that a second balcony increases the price 
+of a house, then that also should apply to other houses (or at least to similar houses).”
+
+consistent with prior beliefs of the explainee：
+This is difficult to integrate into machine learning and 
+would probably drastically compromise predictive performance
+>what if their previous belief is wrong?
+
+general and probable: a cause that could explain many event is considered a good one.
+
+
+
+
+
 
 
 
